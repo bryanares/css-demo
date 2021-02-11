@@ -161,6 +161,7 @@ a:active{
 }
 
 #main-block{
+    margin-top: 10px;
     float: left;
     width: 66.66%;
     padding: 10px;
@@ -168,6 +169,7 @@ a:active{
 }
 
 #sidebar{
+    margin-top: 10px;
     float: right;
     width: 30%;
     background-color: #333;
@@ -176,4 +178,32 @@ a:active{
     border: 1px groove;
     border-radius: 5%;
     box-sizing: border-box;
+}
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+    background-image: url(../images/bgimage.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.p-box1{
+    position: absolute;
+    top: 200px;
+    right: 150px;
+}
+
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    left: 120px;
+}
+
+.fix-me{
+    position:fixed;
+    top: 400px;
 }
