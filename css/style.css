@@ -147,3 +147,12 @@ a:active{
     border-radius: 15%;
 }
 */
+
+.block{
+    float: left;
+    width: 33%;
+    border: 1px groove;
+    border-radius: 5%;
+    padding: 10px;
+    box-sizing: border-box;
+}
