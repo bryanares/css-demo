@@ -40,11 +40,14 @@ a:active{
     color:#fff;
 }
 
+.clr{
+    clear: both;
+}
+
 /*better to use % rather than px in width for responsiveness*/
 .container{
     width:80%;
-    margin: auto;
-
+    margin: auto; 
 }
 
 .box-1{
@@ -154,5 +157,23 @@ a:active{
     border: 1px groove;
     border-radius: 5%;
     padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float: left;
+    width: 66.66%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: 1px groove;
+    border-radius: 5%;
     box-sizing: border-box;
 }
