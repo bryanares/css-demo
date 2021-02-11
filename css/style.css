@@ -66,3 +66,12 @@ body{
     padding: 20px;
     margin: 20px 0;
 }
+
+/*To round corners of borders, use the border-radius*/
+
+.categories{
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
