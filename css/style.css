@@ -13,7 +13,7 @@ body{
 }
 
 /*global styles.. apply to all elemments in the html doc
-in this case, the anchor tags, <a>*/
+in this case, the anchor tags, <a> and buttons*/
 
 a{
     text-decoration: none;
@@ -28,6 +28,17 @@ a:active{
     color: orangered;
 }
 
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15%;
+}
+.button:hover{
+    background: red;
+    color:#fff;
+}
 
 /*better to use % rather than px in width for responsiveness*/
 .container{
@@ -109,3 +120,30 @@ a:active{
     list-style-image: url('../images/check.png');
 }
 
+.my-form{
+    padding: 20px;
+}
+/* class in another class*/
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type ="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+/*style an individual button
+
+.my-form input[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15%;
+}
+*/
